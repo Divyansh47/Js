@@ -55,3 +55,16 @@ else {
 
 })
 ```
+
+## Project-3 Solution
+
+## Project link
+[Click here] (http://127.0.0.1:5500/.vscode4/index.html)
+```javascript
+const clock = document.querySelector('#clock')
+setInterval(function() {
+    let date=new Date()
+    clock.innerHTML=date.toLocaleTimeString()
+},1000)
+
+```
